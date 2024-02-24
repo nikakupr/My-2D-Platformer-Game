@@ -20,9 +20,7 @@ public class DeathZone : MonoBehaviour
             }
 
             gameObject.SetActive(false); // Deactivate the DeathZone GameObject
-
-            // Reload the scene after 1 second using Invoke
-            Invoke("ReloadScene", 1f);
+            Invoke("ReloadScene", 2f);
         }
     }
 
